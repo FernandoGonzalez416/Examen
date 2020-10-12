@@ -1,45 +1,67 @@
 <html>
-<head>
-<title>validar si la clave y la repeticion de la clave- son iguales</title>
-<script>
-	function comprobarClave(){
-		clave1 = document.f1.clave1.value
-		clave2 = document.f1.clave2.value
+  <head>
+    <title>This is my first web page</title>
 
-		if(clave1 == "Fernando" && clave2 == "Fernando"){
-			alert("Datos correctos . . . \n Bienvenido");
-			var href = "index.html";
-			window.location=href;
-		}
 
-		else{
-			alert("los datos son incorrectos . . .\n Intentar de nuevo.");
-			var href = "index2.html";
-			window.location=href;
-		};
+  <link rel="stylesheet"
+      type="text/css"
+      href="sol.css"
+        />
 
-	}
-</script>
-</head>
+  <link rel="stylesheet"
+      type="text/css"
+      href="Styles.css"
+        />  
+  </head>
+  <body>
+    <body background="Fondo3.jpg">
+    <header>
+      <font color="white">Bienvenido a la tienda de componentes para tu computadora</font> 
+    </header><br>
+    <a 
+    href="index2.html" class="redlink">
+      Mision y Vision
+    </a>
+     &nbsp;
+    <a 
+    href="Aboutme.html" class="greenlink">
+    Componentes fercho
+    </a>
+    &nbsp;
+    <a 
+    href="contact.html" class="greenlink">
+      Contacto 
+    </a>
+    &nbsp;
+    <a 
+    href="Productos.html" class="greenlink">
+      Productos 
+    </a>
 
-	<body>
-		<h1> Validar si la contraseña y su repeticion son iguales</h1>
-		<br>
-		Escribe una respuesta correcta dos veces, una en cada campo, y pulsa el boton. Javascrip te dira si son iguales.
+    </hr>
+  <div class="container">
+    <font color="white"><h1>Componentes Fercho </h1></font>
 
-		<br>
-		<br>
-		<form action=""name="f1">
-			Clave <input type="password" name="clave1" size="40">
-			<br>
-			<br>
-			Repite Clave <input type="password" name="clave2" size="40">
-			<br>
-			<br>
-			<input type="button" value="Entrar" onClick="comprobarClave()">
-
-		</form>
-
-	</body>
+    <div class="row">
+      <div class="col-md-3 thin_border">
+        <font color="white">MISION:
+        Ofrecer una buena experiencia en la compra de nuestros productos dando un buen trato y siendo comprensivo y atento con los clientes y atendiendolos con todas sus dudas y productos que deseen adquirir u observar para sus planes de compra en un futuro ademas de ofrecer productos de primera calidad y de las mejores marcas del mercado<hr>VISION: Que cada cliente obtenga sus productos de la manera mas rapida y eficiente posible ofreciendo una atencion al cliente de manera perfecta y siendo eficientes a la hora de entregar los productos a sus destinos a sus detinos para que los clientes se queden satisfechos con el servicio<hr></font>
+      </div>
+      <div class="col-md-9 thin_border">
+        <font color="white">Monitores <hr></font>
+        <font color="white">Teclados <hr></font>
+        <font color="white">Tajetas madres <hr></font>
+        <font color="white">Tarjetas graficas <hr></font>
+        <font color="white">mouses <hr></font>
+        <font color="white">Memorias Ram <hr></font>
+        <a href="Informacion.jpg"> 
+      <img 
+         src="Informacion.jpg" 
+         width="center"/>
+      </div>
+    </div>
+  </div>
+    <FOOTER> </FOOTER>
+  </body>
 </html>
 
